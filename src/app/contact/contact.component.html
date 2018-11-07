@@ -1,0 +1,25 @@
+<section id="contact">
+  <div class="container text-xs-center wow zoomIn" data-wow-delay="0.3s">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Contact Us</h2>
+        <hr width="30%"/>
+
+        <div class="col-md-6 home">
+          <a href="mailto:sue@hohsalon.com"><i class="fa fa-envelope fa-5x"></i></a><br/><br/>
+          <h2><a href="tel:419-517-2080" style="color: #be2835;text-decoration:none;"><i
+            class="fa fa-phone fa-3x"></i></a></h2><br/>
+          <h3><a href="https://goo.gl/maps/qX7ZDMjnJFF2" target="_blank">Get Directions</a></h3>
+        </div>
+        <div class="col-md-6 home">
+          <div id="map">
+          <sebm-google-map [latitude]="lat" [longitude]="lng" [zoom]="16" [scrollwheel]="false">
+            <sebm-google-map-marker [latitude]="lat" [longitude]="lng" ></sebm-google-map-marker>
+          </sebm-google-map>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>

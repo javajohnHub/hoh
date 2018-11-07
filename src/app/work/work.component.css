@@ -1,0 +1,21 @@
+#work{
+  padding: 5rem 0;
+  overflow: hidden;
+
+}
+#work img{
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px #b3b3b3;
+}
+#our_work .carousel-indicators li{
+  background-color: #be2835;
+
+}
+
+#our_work .carousel-inner{
+  margin-bottom: 50px;
+}
+
+#our_work .carousel-indicators{
+  margin-bottom: -50px;
+}
