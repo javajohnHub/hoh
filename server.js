@@ -11,12 +11,10 @@ app.set('views', __dirname + '/views');
 app.engine('html', require('ejs').renderFile);
 
 
-/*app.get('/', function(req, res) {
-    res.render('index.html');
-});*/
-app.get('/', function (req, res) {
-    res.sendFile('dist/index.html');
+app.get('/', function(req, res) {
+    res.render('dist/index.html');
 });
+
 server.listen(app.get('port'), function(){
 
 });
