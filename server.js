@@ -15,7 +15,7 @@ app.engine('html', require('ejs').renderFile);
     res.render('index.html');
 });*/
 app.get('/', function (req, res) {
-    res.sendFile('index.html');
+    res.sendFile('dist/index.html');
 });
 server.listen(app.get('port'), function(){
 
