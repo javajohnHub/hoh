@@ -12,7 +12,7 @@ app.engine('html', require('ejs').renderFile);
 
 
 app.get('/', function(req, res) {
-    res.render('dist/index.html');
+    res.render('index.html');
 });
 
 server.listen(app.get('port'), function(){
