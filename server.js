@@ -6,7 +6,7 @@ var port = process.env.PORT || 5000;
 
 app.set('port', port);
 app.use(express.static(__dirname + '/dist'));
-app.set('views', __dirname + '/views');
+app.set('views', __dirname + '/dist');
 
 app.engine('html', require('ejs').renderFile);
 
